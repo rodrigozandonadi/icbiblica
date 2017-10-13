@@ -7,7 +7,6 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { PostsArtigosPage } from '../pages/posts-artigos/posts-artigos';
 import { VideosYoutubePage } from '../pages/videos-youtube/videos-youtube';
-import { YoutubePage } from '../pages/youtube/youtube';
 import { PlaylistPage } from '../pages/playlist/playlist';
 ;
 @Component({
@@ -27,8 +26,7 @@ export class MyApp {
     this.pages = [
       { title: 'Home', icon: 'home', component: HomePage },
       { title: 'Artigos', icon: 'ios-folder-open', component: PostsArtigosPage },
-      { title: 'Pregações', icon: 'ios-book', component: VideosYoutubePage },
-      //{ title: 'YouTube', icon: 'ios-book', component: YoutubePage }
+      { title: 'Pregações', icon: 'ios-book', component: VideosYoutubePage }
     ];
 
   }
