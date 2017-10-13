@@ -1,0 +1,31 @@
+page-videos-youtube {
+    .title {
+        color: #8c7b2b;        
+        text-align: center;        
+    }
+    h2  {
+        color: #c6ae32;
+    }
+    .featured-image {
+	    height: auto;
+	    width: auto;
+	    display: block;
+	    margin: 0 auto;
+    }
+    p {
+        text-align: justify;
+    }
+    .cards {
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    .cards div {
+        padding-top: 20px;        
+    }
+    iframe {
+        margin-bottom: 20px;
+    }
+    
+    
+}

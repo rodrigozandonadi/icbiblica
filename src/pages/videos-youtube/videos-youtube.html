@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title><img src="http://icbiblica.com/wp-content/uploads/2016/02/logo-300x152.png" alt="Logo da Igreja Cristã Bíblica" /></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="videos" padding>
+  <h2 class="title">Mensagens</h2>
+  <ion-card *ngFor="let post of posts" class="cards">
+    <ion-card-title>{{ post.snippet.title }}</ion-card-title>
+    <ion-card-content>        
+        <!--img [src]="post.snippet.thumbnails.medium.url" /-->
+        <iframe width="290" height="160" [src]="post.id.videoId | youtube" frameborder="0" allowfullscreen></iframe>
+        <p>{{ post.snippet.description }}</p>
+    </ion-card-content>      
+  </ion-card>
+</ion-content>

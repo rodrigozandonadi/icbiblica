@@ -1,3 +1,18 @@
 page-home {
-
+    h2, h5 {
+        color: #8c7b2b;
+        text-align: center;
+    }
+    .featured-image {
+	    height: auto;
+	    width: auto;
+	    display: block;
+	    margin: 0 auto;
+    }
+    p {
+        text-align: justify;
+    }    
+    strong, em {
+        color: #c6ae32;
+    }
 }

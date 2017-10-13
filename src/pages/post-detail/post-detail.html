@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title><img src="http://icbiblica.com/wp-content/uploads/2016/02/logo-300x152.png" alt="Logo da Igreja Cristã Bíblica" /></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div *ngIf="selectedItem" class="selection">
+      <h2 [innerHTML]="selectedItem.title.rendered"></h2>
+      <img *ngIf="selectedItem.featured_image_urls.medium" [src]="selectedItem.featured_image_urls.medium" class="featured-image" />
+      <div [innerHTML]="selectedItem.content.rendered"></div>
+    </div>
+</ion-content>
