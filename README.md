@@ -1,6 +1,6 @@
 ## Mobile APP for Igreja Cristã Bíblica
 
-[Visite nosso Site](https://icbiblica.com)
+[Visite nosso Site](http://icbiblica.com)
 
 [Visite nosso Facebook](https://www.facebook.com/I.C.Biblica/)
 
